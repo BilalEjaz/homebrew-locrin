@@ -1,24 +1,24 @@
 class Locrin < Formula
   desc "Deterministic quality gate for code written by people and agents"
   homepage "https://locrin.com"
-  version "0.6.1"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/BilalEjaz/locrin/releases/download/v0.6.1/locrin-v0.6.1-aarch64-apple-darwin.tar.gz"
-      sha256 "8ebfee5f7c022c7499090f6e7eafee2b28380bcb99c1aa0e1a3f17022c201794"
+      url "https://github.com/BilalEjaz/locrin/releases/download/v1.0.0/locrin-v1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "481e3221522ab13e9c339929c85e8efc32b8217a0f730c56fcecfb4de374b044"
     end
     on_intel do
-      url "https://github.com/BilalEjaz/locrin/releases/download/v0.6.1/locrin-v0.6.1-x86_64-apple-darwin.tar.gz"
-      sha256 "61174b4f2d72fe51e51308a60e1b12be6aa914e5de2a23796dfcc8ae7ad367ce"
+      url "https://github.com/BilalEjaz/locrin/releases/download/v1.0.0/locrin-v1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ee87f0aae88838b58d3e0205cf1af52fdd5bbe1bd3d29939d8a9406885766ee9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/BilalEjaz/locrin/releases/download/v0.6.1/locrin-v0.6.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cc291c600365971970d5b7ab648b5a47d88d4e79714da3ae1c0229ab0d4880c6"
+      url "https://github.com/BilalEjaz/locrin/releases/download/v1.0.0/locrin-v1.0.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3d54450e0f3d041a827893490b3444c7e51be74faf4f6d8907cda7cf94508449"
     end
   end
 
